@@ -1,2 +1,2 @@
 # 154686
-Proyecto Integral Web: Prácticas
+María Andrea Gallegos Sotelo
