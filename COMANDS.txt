@@ -5,3 +5,4 @@ git add . //Añadir todos los cambios que se han hecho, se queda en mi computado
 git commit -m "Texto" //Agregar comentarios de versión y crear una versión.
 git push //Subirlo al servidor.
 git log //Para ver todo el historial y los cambios hechos.
+git pull //Actualizar.

@@ -1,7 +1,6 @@
 //HTML
 <template>
   <div class="login container">
-    <h1>Bienvenido (a)</h1>
     <div class="row">
         <div class="col col-4"></div>
         <div class="col col-4">
