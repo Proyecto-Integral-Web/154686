@@ -3,6 +3,8 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 // Importamos nuevas vistas.
 import Login from '../views/Login.vue'
+import SignUp from '../views/SignUp.vue'
+import Profile from '..views/Profile.vue'
 
 Vue.use(VueRouter)
 
@@ -30,6 +32,16 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   }
+  {
+    path: '/signup',
+    name: 'signup',
+    component: SignUp
+  },
+  {
+    path: '/profile',
+    name: 'profile',
+    component: Profile
+  },
 ]
 
 const router = new VueRouter({
